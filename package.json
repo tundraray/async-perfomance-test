@@ -1,0 +1,22 @@
+{
+  "name": "async-perfomance-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tundraray/async-perfomance-test.git"
+  },
+  "author": "Mikhail Andreev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tundraray/async-perfomance-test/issues"
+  },
+  "homepage": "https://github.com/tundraray/async-perfomance-test#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
