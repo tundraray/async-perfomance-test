@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test:common": "node index.js",
+    "test:async": "node async-2.js",
+    "start": "npm run test:common && npm run test:async"
   },
   "repository": {
     "type": "git",
