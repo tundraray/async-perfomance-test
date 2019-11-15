@@ -6,7 +6,8 @@
   "scripts": {
     "test:common": "node index.js",
     "test:async": "node async-2.js",
-    "start": "npm run test:common && npm run test:async"
+    "test:slowfast": "node async-3.js",
+    "start": "npm run test:common && npm run test:async && npm run test:slowfast"
   },
   "repository": {
     "type": "git",
